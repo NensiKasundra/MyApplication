@@ -148,7 +148,7 @@ public class MainActivity extends PermissionHandlerActivity
         });
 
 
-        btn_app_download = (Button) findViewById(R.id.btn_app_download);
+        btn_app_download = findViewById(R.id.btn_app_download);
         btn_app_download.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -164,7 +164,7 @@ public class MainActivity extends PermissionHandlerActivity
             }
         });
 
-        btn_exericse = (Button) findViewById(R.id.btn_exericse);
+        btn_exericse = findViewById(R.id.btn_exericse);
         btn_exericse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -173,7 +173,7 @@ public class MainActivity extends PermissionHandlerActivity
             }
         });
 
-        btn_permission = (Button) findViewById(R.id.btn_permission);
+        btn_permission = findViewById(R.id.btn_permission);
         btn_permission.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -181,7 +181,7 @@ public class MainActivity extends PermissionHandlerActivity
             }
         });
 
-        Button btn_notification = (Button) findViewById(R.id.btn_notification);
+        Button btn_notification = findViewById(R.id.btn_notification);
         btn_notification.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
