@@ -222,20 +222,9 @@ public class MainActivity extends PermissionHandlerActivity
 
     private List<StateModel> getData() {
         StateModel stateModel = new StateModel("01", "Gujarat");
-//        stateModel.setStateId("01");
-//        stateModel.setStateName("Gujarat");
-
         StateModel stateModel1 = new StateModel("02", "Maharastra");
-//        stateModel.setStateId("02");
-//        stateModel.setStateName("Maharastra");
-
         StateModel stateMode2 = new StateModel("03", "Asam");
-//        stateModel.setStateId("03");
-//        stateModel.setStateName("Asam");
-
         StateModel stateMode3 = new StateModel("04", "Goa");
-//        stateModel.setStateId("04");
-//        stateModel.setStateName("Madhya Pradesh");
 
         stateList.add(stateModel);
         stateList.add(stateModel1);
@@ -283,12 +272,6 @@ public class MainActivity extends PermissionHandlerActivity
         File image = new File(path);
         Bitmap bitmap = BitmapFactory.decodeFile(image.getPath());
         imageView.setImageBitmap(bitmap);
-
-//        File imgFile = new File(path);
-//            if (imgFile.exists()) {
-//                Bitmap myBitmap = BitmapFactory.decodeFile(imgFile.getAbsolutePath());
-//                imageView.setImageBitmap(myBitmap);
-//        }
     }
 
 
