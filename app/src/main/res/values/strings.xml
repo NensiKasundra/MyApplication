@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="settings">Settings</string>
+    <string name="permission_message">Please enable permission from settings. Without this permissions the app is unable to take images.</string>
+
+
+    <string name="alert_pre">Alert Pre</string>
+    <string name="alert_post">Alert Post</string>
+    <string name="toast_pre">toast_pre</string>
+    <string name="toast_post">toast_post</string>
+    <string name="READ_EXTERNAL_STORAGE"> READ_EXTERNAL_STORAGE</string>
+    <string name="WRITE_EXTERNAL_STORAGE">WRITE_EXTERNAL_STORAGE</string>
+    <string name="SEND_SMS">SEND_SMS</string>
+    <string name="RECEIVE_SMS">RECEIVE_SMS</string>
+    <string name="GET_ACCOUNTS">GET_ACCOUNTS</string>
+    <string name="ACCESS_FINE_LOCATION">ACCESS_FINE_LOCATION</string>
+    <string name="ACCESS_COARSE_LOCATION">ACCESS_COARSE_LOCATION</string>
+    <string name="RECORD_AUDIO"> RECORD_AUDIO</string>
+    <string name="READ_PHONE_STATE">READ_PHONE_STATE</string>
+    <string name="CALL_PHONE">CALL_PHONE</string>
+    <string name="READ_CALL_LOG">READ_CALL_LOG</string>
+    <string name="WRITE_CALL_LOG">WRITE_CALL_LOG</string>
+    <string name="ADD_VOICEMAIL">ADD_VOICEMAIL</string>
+    <string name="USE_SIP">USE_SIP</string>
+    <string name="PROCESS_OUTGOING_CALLS">PROCESS_OUTGOING_CALLSb</string>
+    <string name="BODY_SENSORS">BODY_SENSORS </string>
+    <string name="READ_SMS">READ_SMS</string>
+    <string name="RECEIVE_WAP_PUSH">RECEIVE_WAP_PUSH</string>
+    <string name="RECEIVE_MMS">RECEIVE_MMS</string>
+    <string name="CAMERA">CAMERA</string>
+    <string name="READ_CONTACTS">READ_CONTACTS</string>
+    <string name="WRITE_CONTACTS"> WRITE_CONTACTS </string>
+    <string name="READ_CALENDAR">READ_CALENDAR </string>
+    <string name="WRITE_CALENDAR"> WRITE_CALENDAR </string>
+</resources>
